@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: multiagent_rag_postgres
+    environment:
+      POSTGRES_DB: multiagent_rag
+      POSTGRES_USER: raguser
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ragpassword123}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/01-init_db.sql
+      - ./scripts/init_query_logging.sql:/docker-entrypoint-initdb.d/02-init_query_logging.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U raguser -d multiagent_rag"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rag_network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: multiagent_rag_redis
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rag_network
+
+  # RAG Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: multiagent_rag_app
+    environment:
+      # Database
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: multiagent_rag
+      DB_USER: raguser
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-ragpassword123}
+
+      # Redis
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+      # OpenAI (from environment or secrets)
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      LLM_PROVIDER: openai
+      LLM_MODEL: gpt-4
+      EMBEDDING_MODEL: text-embedding-3-small
+      EMBEDDING_DIMENSION: 1536
+
+      # Weaviate Cloud
+      VECTOR_STORE_TYPE: weaviate
+      WEAVIATE_URL: ${WEAVIATE_URL}
+      WEAVIATE_API_KEY: ${WEAVIATE_API_KEY}
+      WEAVIATE_COLLECTION: ${WEAVIATE_COLLECTION:-Playbooks}
+
+      # Application
+      PYTHONUNBUFFERED: 1
+
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    networks:
+      - rag_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  rag_network:
+    driver: bridge
