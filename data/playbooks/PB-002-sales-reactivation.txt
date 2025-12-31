@@ -1,0 +1,101 @@
+Title: Reactivation Strategy for Dormant Deals
+
+Category: sales
+Success Rate: 65%
+Number of Cases: 18
+
+When to Use:
+- No activity in 7+ days
+- Opportunity in any stage
+- Last touchpoint was from prospect (not us)
+- Deal hasn't progressed in 2+ weeks
+
+Recommended Actions:
+1. Review last touchpoint and identify blocker
+   - What was discussed?
+   - What action item was pending?
+   - Who dropped the ball?
+   - What changed in their environment?
+
+2. Send a 2-option value email (not "just checking in")
+   - Option A: Specific value proposition
+   - Option B: Alternative approach
+   - Force a decision/response
+   - Example: "Would you prefer X or Y approach?"
+
+3. Offer specific business insights or competitive intelligence
+   - Industry trends relevant to them
+   - Competitor movements
+   - Regulatory changes
+   - Market opportunities
+
+4. Propose concrete next step with calendar invite
+   - Don't ask "when are you free?"
+   - Propose 2-3 specific time slots
+   - Include clear agenda
+   - Set duration (keep it short, 20-30 min)
+
+5. If no response in 3 days, loop in their manager
+   - Professional escalation
+   - New perspective
+   - Higher-level conversation
+   - Avoid being pushy
+
+Success Factors:
+- Providing value in every outreach (not just asking for updates)
+- Specific calendar invites get 3x more responses than "let me know"
+- Industry insights increase engagement by 42%
+- 2-option emails have 28% higher response rate
+- Escalation (when done right) closes 23% of dormant deals
+
+Common Pitfalls:
+- Generic "just checking in" emails
+- Not offering tangible value
+- Waiting too long before re-engaging (sweet spot is 7-10 days)
+- Being too aggressive with follow-ups
+- Not acknowledging the gap in communication
+
+Email Templates:
+
+Template 1 - Value-Based Reactivation:
+Subject: 2 quick ideas for [Company]
+
+Hi [Name],
+
+I know things get busy. I wanted to share two quick thoughts that might be relevant:
+
+Option A: [Specific insight about their industry/challenge]
+Option B: [Alternative approach we haven't discussed]
+
+Which resonates more with your current priorities?
+
+Happy to jump on a brief call Tuesday 2pm or Thursday 10am to explore further.
+
+Best,
+[Your name]
+
+Template 2 - Competitive Intelligence:
+Subject: [Competitor] just announced [relevant news]
+
+Hi [Name],
+
+Saw that [Competitor] just [specific action]. This could impact [their business area].
+
+Based on our earlier conversations, this might accelerate your timeline for [initiative].
+
+Would a 20-min call this week be helpful to discuss implications?
+
+Best,
+[Your name]
+
+Expected Results:
+- 30-40% response rate within 3 days
+- 20-25% convert to active pipeline again
+- 65% overall success rate for re-engaged deals
+
+Timeline:
+- Day 1: Research and prepare value content
+- Day 2: Send reactivation email
+- Day 5: Follow-up if no response
+- Day 8: Manager escalation if still no response
+- Day 10: Mark as closed-lost if no engagement

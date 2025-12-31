@@ -1,0 +1,112 @@
+Title: Overdue Task Triage Protocol
+
+Category: delivery
+Success Rate: 73%
+Number of Cases: 22
+
+When to Use:
+- 5+ overdue tasks in any project
+- Tasks overdue by 3+ days
+- Project status is Yellow or Red
+- Client or team blockers present
+
+Recommended Actions:
+1. Categorize ALL overdue tasks into 3 buckets
+   - CLIENT-BLOCKED: Waiting on client input/approval
+   - TEAM-BLOCKED: Waiting on internal resources/decisions
+   - SCOPE CREEP: New requests not in original scope
+
+   Why categorize?
+   - Different approaches for different blockers
+   - Prevents wasted effort on wrong solutions
+   - Shows patterns (e.g., if 80% are client-blocked, need escalation)
+
+2. For CLIENT-BLOCKED tasks:
+   - Don't wait silently
+   - Escalate to account manager or sales team within 24 hours
+   - Provide specific ask: "Need X from Y by Z"
+   - Sales team has different leverage and relationships
+   - Usually gets response within 1 business day
+
+   Email template for escalation:
+   "Hi [Account Manager], need your help on [Project]. Blocked on [specific item]
+   from [client stakeholder]. Without this by [date], we'll miss [milestone].
+   Can you help escalate?"
+
+3. For TEAM-BLOCKED tasks:
+   - Identify if it's a skills gap or capacity issue
+   - Skills gap → Pair programming with senior team member
+   - Capacity issue → Reassign or adjust priorities
+   - Don't let team members struggle alone
+   - Pair programming resolves 70% of team blockers in <1 day
+
+   Pair programming protocol:
+   - 2-hour focused session
+   - More experienced developer + blocked developer
+   - Work together on the blocker
+   - Knowledge transfer happens naturally
+   - Usually unblocks task same day
+
+4. For SCOPE CREEP tasks:
+   - Flag immediately as out-of-scope
+   - Document in shared tracker
+   - Propose as Phase 2 or change request
+   - Get written approval if adding to current scope
+   - Don't silently accept scope creep
+
+   Scope creep response template:
+   "This is a valuable request. However, it's outside our original scope.
+   Would you like to:
+   A) Add to Phase 2 (no timeline impact)
+   B) Add to current scope (requires [X days] extension)
+   C) Defer to future discussion"
+
+5. Update project plan with realistic timeline
+   - After clearing blockers, revise estimates
+   - Be honest about new completion dates
+   - Update stakeholders proactively
+   - Don't hide delays hoping to catch up
+   - Transparency builds trust
+
+Success Factors:
+- Categorization prevents treating all tasks the same (60% of projects don't categorize)
+- 60% of overdue tasks are actually client-blocked
+- Escalation to sales/account team speeds client response by 3x
+- Pair programming resolves 70% of team blockers within 1 day
+- Flagging scope creep early prevents 40% of project delays
+- Proactive timeline updates maintain client trust
+
+Common Pitfalls to Avoid:
+- Treating all overdue tasks equally (each type needs different approach)
+- Not escalating client blockers fast enough (developers wait too long)
+- Letting team members struggle alone instead of pairing
+- Accepting scope creep without documentation
+- Hiding delays from stakeholders (always backfires)
+- Not updating the project plan after clearing blockers
+
+Metrics to Track:
+- Number of tasks in each category (client/team/scope)
+- Time from identification to resolution
+- Escalation response time (for client blockers)
+- Pair programming success rate
+- Scope creep requests accepted vs deferred
+
+Expected Timeline:
+- Day 1: Categorize all overdue tasks
+- Day 1-2: Escalate client blockers
+- Day 2-3: Pair programming for team blockers
+- Day 3-4: Document and defer scope creep
+- Day 5: Update project plan
+- Day 7: All categorized tasks resolved or have clear path forward
+
+Real Example:
+Project had 12 overdue tasks:
+- 7 were client-blocked (58%) → Escalated to account manager → All resolved in 2 days
+- 3 were team-blocked (25%) → Pair programming sessions → Resolved in 1 day
+- 2 were scope creep (17%) → Flagged as Phase 2 → Removed from current sprint
+
+Result: 12 overdue → 0 overdue in 3 days. Project went from Red to Yellow.
+
+Key Insight:
+Most overdue tasks aren't technical problems - they're communication and
+prioritization problems. Categorization reveals this and enables the right solutions.

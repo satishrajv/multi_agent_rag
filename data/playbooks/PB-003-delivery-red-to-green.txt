@@ -1,0 +1,109 @@
+Title: Red to Green Project Recovery
+
+Category: delivery
+Success Rate: 85%
+Number of Cases: 14
+
+When to Use:
+- Projects in Red status
+- Less than 7 days to deadline
+- Progress significantly behind schedule
+- Multiple overdue tasks
+
+Recommended Actions:
+1. Start 15-minute daily huddle with delivery manager
+   - Every morning at same time
+   - Review yesterday's progress
+   - Identify today's top 3 priorities
+   - Clear blockers immediately
+   - No status updates - action-oriented only
+
+2. Identify top 3 critical blockers
+   - What's preventing progress?
+   - Client blockers vs team blockers vs technical blockers
+   - Severity and impact assessment
+   - Owner assignment for each blocker
+
+3. Escalate client response gaps to account/sales team
+   - Client not responding? Don't wait
+   - Sales team has different leverage
+   - Usually gets response within 24 hours
+   - Be specific about what you need
+
+4. Re-scope non-essential items to Phase 2
+   - Be honest about what's achievable
+   - Protect core functionality
+   - Document what's moving to Phase 2
+   - Get written agreement from client
+
+5. Get written confirmation on revised scope within 24 hours
+   - Email summary of agreements
+   - Clear acceptance criteria
+   - New timeline
+   - Client sign-off required
+
+Success Factors:
+- Daily huddles have 85% success rate in Red → Green transitions
+- Scope re-alignment is critical (trying to do everything fails)
+- Client escalation by sales team speeds up responses by 3x
+- Getting written confirmation prevents scope creep
+- Manager involvement shows seriousness
+
+Why This Works:
+- Daily visibility prevents surprises
+- Scope reduction is often necessary for success
+- Sales team has different relationship with client
+- Clear priorities focus the team
+- Written agreements protect everyone
+
+Common Pitfalls:
+- Trying to recover without rescoping (95% fail rate)
+- Not involving sales team for client escalation soon enough
+- Weekly check-ins instead of daily (too slow for Red projects)
+- Not getting written confirmation (leads to disputes)
+- Focusing on status updates instead of actions
+
+Daily Huddle Structure (15 minutes):
+- Minute 1-3: Yesterday's completions
+- Minute 4-8: Today's top 3 priorities
+- Minute 9-13: Blockers and owner assignments
+- Minute 14-15: Quick decisions/escalations
+
+Re-scoping Conversation Guide:
+1. Acknowledge the situation honestly
+2. Present current reality (progress vs deadline)
+3. Propose core vs nice-to-have split
+4. Explain Phase 2 plan
+5. Get agreement and sign-off
+
+Client Escalation Template:
+Subject: Urgent: Need [specific item] for [Project] by [date]
+
+Hi [Sales Rep],
+
+We need your help with [Project Name]. We're blocked on [specific blocker]
+and need [specific action] from [client stakeholder] by [date].
+
+Context: [1-2 sentences on impact]
+What we need: [specific, actionable request]
+Deadline: [specific date/time]
+Impact if missed: [clear consequence]
+
+Can you help escalate this? Happy to jump on a call to discuss.
+
+Thanks,
+[Your name]
+
+Expected Timeline:
+- Day 1: Start daily huddles, identify blockers
+- Day 2: Escalate client issues, propose re-scoping
+- Day 3: Get written agreement on new scope
+- Days 4-7: Execute with daily huddles
+- Result: Green status within 5-7 days
+
+Metrics to Track:
+- Number of blockers cleared per day
+- Client response time
+- Scope reduction percentage
+- Team velocity improvement
+- Time to green status

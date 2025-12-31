@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment & Secrets
+.env
+.venv
+*.env.local
+.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/
+data/vector_store/
+
+# Models & Cache
+models/*.pkl
+models/*.pt
+models/reranker/
+.cache/
+*.pyc
+
+# Logs
+*.log
+logs/*.log
+logs/*.json
+!logs/README.md
+mlruns/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+0
+0.85
+7
+80%
+90%
+=4.4.0
+4.4.0
+
+# Database
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+
+# Keep example files
+!data/playbooks/*.md

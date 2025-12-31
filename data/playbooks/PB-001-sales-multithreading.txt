@@ -1,0 +1,63 @@
+Title: Multi-threading Strategy for Stalled Sales
+
+Category: sales
+Success Rate: 78%
+Number of Cases: 11
+
+When to Use:
+- Sales opportunities stalled in Proposal stage
+- Single-threaded engagement (only 1 contact)
+- Deal value > $500K
+- No activity in 7+ days
+
+Recommended Actions:
+1. Identify the decision-making unit (DMU)
+   - CFO (budget holder)
+   - CTO (technical decision maker)
+   - Risk Lead (compliance/security)
+   - Business Owner (champion)
+
+2. Research each stakeholder on LinkedIn
+   - Review their posts and interests
+   - Identify their key priorities
+   - Find common connections
+
+3. Send personalized outreach to each stakeholder
+   - Tailor message to their role
+   - Highlight their specific concerns
+   - Provide relevant case studies
+
+4. Schedule multi-party discovery call within 5 business days
+   - Include all key stakeholders
+   - Prepare customized agenda
+   - Assign roles to your team
+
+5. Create stakeholder engagement map
+   - Track interactions with each person
+   - Monitor relationship strength
+   - Identify gaps in coverage
+
+Success Factors:
+- Engaging 3+ stakeholders increases win rate by 35%
+- CFO involvement is critical in deals over $1M
+- Technical champions need executive sponsorship
+- Multi-threading reduces risk of single-point failure
+
+Common Pitfalls to Avoid:
+- Sending generic emails to all stakeholders
+- Not researching individual priorities beforehand
+- Skipping the CTO in technical deals
+- Relying solely on one champion
+- Not documenting stakeholder engagement
+
+Expected Timeline:
+- Research phase: 1-2 days
+- Outreach: 2-3 days
+- First multi-party call: Within 1 week
+- Follow-up cadence: Every 3-4 days
+
+Metrics to Track:
+- Number of stakeholders engaged
+- Response rate to outreach
+- Time to first multi-party meeting
+- Win rate improvement
